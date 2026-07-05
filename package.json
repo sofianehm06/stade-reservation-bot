@@ -1,0 +1,25 @@
+{
+  "name": "stade-reservation-bot",
+  "version": "1.0.0",
+  "description": "Bot Telegram pour gérer les réservations de créneaux d'un stade communal",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "engines": {
+    "node": "20.x"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "reservation",
+    "stade",
+    "sqlite"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^11.3.0",
+    "dotenv": "^16.4.5",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
